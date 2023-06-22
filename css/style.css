@@ -1,0 +1,118 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url("../img/mainfoto.png");
+    width: 100%;
+    height: 769px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 48px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 397px;
+}
+
+.left {
+    background-image: url("../img/foto2.png");
+}
+
+.right {
+    background-image: url("../img/foto3.png");
+}
+
+.new-day {
+    background-image: url("../img/foto4.png");
+    height: 422px;
+}
+
+.about {}
+
+.central {
+    background-image: url("../img/foto6.png");
+    height: 422px;
+}
+
+.before-after {}
+
+.goals {
+    background-image: url("../img/foto8.png");
+    height: 422px;
+}
+
+.video {}
+
+.footer {
+    background-image: url("../img/footerfoto.png");
+    background-repeat: no-repeat;
+    height: 762px;
+    padding-top: 94px;
+    padding-left: 984px;
+}
+
+.contact-us input {
+    display: block;
+    width: 279px;
+    height: 40px;
+}
+
+.contact-us h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    text-align: left;
+    width: auto;
+}
+
+#send {
+    width: 125px;
+    height: 45px;
+    background-color: #EF3A53;
+    color: #fff;
+    border-radius: 25%;
+}
