@@ -1,6 +1,7 @@
 body {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 .main {
@@ -34,11 +35,28 @@ body {
     text-align: center;
 }
 
+.btn-consult {
+    display: inline-block;
+    line-height: 56px;
+    width: 322px;
+        height: 56px;
+        color: #FFF;
+                       font-size: 14px;
+                       font-weight: 700;
+        border-radius: 39.5px;
+            background: #292929;
+            padding: 0 42px 0 15px;
+            box-sizing: border-box;
+            text-decoration: none;
+}
+
 h1 {
     font-size: 72px;
     font-weight: bold;
     color: #fff;
     line-height: 84.38px;
+    margin-bottom: 64px;
+    margin-top: 0;
 }
 
 h1 span, .start span {
@@ -49,6 +67,8 @@ h1 span, .start span {
     line-height: 42.19px;
     font-size: 36px;
     color: #fff;
+    margin-top: 212px;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -82,12 +102,26 @@ h2 {
 .right {
     width: 50%;
     height: 397px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .left p:nth-child(2), .right p:nth-child(2) {
     color: #EF3851;
     text-transform: uppercase;
     font-size: 28px;
 }
+
+.left p:first-child,
+.right p:first-child {
+    color: #FFF;
+               font-size: 22px;
+                font-weight: 700;
+                text-transform: uppercase;
+}
+
 
 .left {
     background-image: url("../img/foto2.png");
@@ -100,24 +134,111 @@ h2 {
 .new-day {
     background-image: url("../img/foto4.png");
     height: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.about {}
+.new-day h2 {
+    color: #333;
+               font-size: 34px;
+                font-weight: 700;
+               }
+
+.about {
+    display: flex;
+    gap: 43px;
+    padding: 3% 25% 0 20%;
+}
+
+.about h3 {
+            font-size: 34px;
+                font-weight: 700;
+                }
+
+.about hr, .before-after hr, .video hr {
+       width: 105px;
+}
+
+.about-text {
+    color: #333;
+        font-size: 14px;
+           font-weight: 400;
+        line-height: 1.4;       
+}
+
+.about-Olga p {
+    margin-left: 40px;
+}
 
 .central {
     background-image: url("../img/foto6.png");
     height: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.before-after {}
+.central  h2 {
+    color: #FFF;
+        text-align: center;
+               font-size: 34px;
+               font-weight: 700;
+        
+}
+
+.before-after, .video {
+    padding: 3% 25% 0 20%;
+}
+
+.before-after h3, .video h3 {
+    color: #333;
+               font-size: 34px;
+                font-weight: 700;
+        
+}
+
+.client-foto {
+    margin-left: 72px;
+    height: 300px;
+    display: flex;
+}
+
+.client {
+    display: flex;
+    gap: 35px;
+    margin-top: 70px;
+}
+
+.client-content h4 {
+    color: #333;
+            font-size: 28px;
+                font-weight: 700;
+                margin: 0;
+}
+
+.client-work {
+    color: #EF3A53;
+             font-size: 18px;
+               font-weight: 700;
+               margin-top: 5px;
+}
 
 .goals {
     background-image: url("../img/foto8.png");
     height: 422px;
+    color: #FFF;
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
-.video {}
-
+.video img {
+    margin-left: 40px;
+}
 .footer {
     background-image: url("../img/footerfoto.png");
     background-repeat: no-repeat;
